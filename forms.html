@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <br /><br />
+        <div>
+            <input type="text" name="myName" id="name" />
+        </div>
+        <br />
+
+        <div>Email : <input type="text" name="myEmail" /></div>
+        <br />
+
+        <div>Date : <input type="date" name="myDate" /></div>
+        <br />
+
+        <div>Age : <input type="number" name="myAge" /></div>
+        <br />
+
+        <div>
+            Are you eligible ? :
+            <input type="checkbox" name="myEligibility" checked />
+        </div>
+        <br />
+
+        <div>
+            Gender : Male <input type="radio" name="myGender" /> Female
+            <input type="radio" name="myGender" />
+        </div>
+        <br />
+
+        <div>
+            Write about yourself : <br /><textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+        <br />
+
+        <div>
+            <label for="car">Car : </label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swf" selected>Swift</option>
+            </select>
+        </div>
+        <br />
+        <div>
+            <input type="submit" name="Submit Now" />
+            <input type="reset" name="Reset" />
+        </div>
+    </form>
+
+</body>
+
+</html>
